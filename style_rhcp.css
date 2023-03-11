@@ -1,0 +1,243 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.logo-box {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+}
+
+.circle-text {
+  position: absolute;
+  top: 12%;
+  left: 11.6%;
+  width: 300px;
+  height: 300px;
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  transform: rotate(-80deg);
+}
+
+.circle-text span {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 15px);
+  display: inline-block;
+  width: 30px;
+  height: 150px;
+  transform-origin: center bottom;
+  /* border: solid 1px; */
+  color: white;
+  font-weight: bold;
+}
+
+.circle-text span:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.circle-text span:nth-child(2) {
+  transform: rotate(20deg);
+}
+
+.circle-text span:nth-child(3) {
+  transform: rotate(40deg);
+}
+
+.circle-text span:nth-child(4) {
+  transform: rotate(60deg);
+}
+
+.circle-text span:nth-child(5) {
+  transform: rotate(80deg);
+}
+
+.circle-text span:nth-child(6) {
+  transform: rotate(100deg);
+}
+
+.circle-text span:nth-child(7) {
+  transform: rotate(120deg);
+}
+
+.circle-text span:nth-child(8) {
+  transform: rotate(140deg);
+}
+
+.circle-text span:nth-child(9) {
+  transform: rotate(160deg);
+}
+
+.circle-text span:nth-child(10) {
+  transform: rotate(180deg);
+}
+
+.circle-text span:nth-child(11) {
+  transform: rotate(200deg);
+}
+
+.circle-text span:nth-child(12) {
+  transform: rotate(220deg);
+}
+
+.circle-text span:nth-child(13) {
+  transform: rotate(240deg);
+}
+
+.circle-text span:nth-child(14) {
+  transform: rotate(260deg);
+}
+
+.circle-text span:nth-child(15) {
+  transform: rotate(280deg);
+}
+
+.circle-text span:nth-child(16) {
+  transform: rotate(300deg);
+}
+
+.circle-text span:nth-child(17) {
+  transform: rotate(320deg);
+}
+
+.circle-text span:nth-child(18) {
+  transform: rotate(340deg);
+}
+
+/* .circle-text span:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.circle-text span:nth-child(2) {
+  transform: rotate(16.36deg);
+}
+
+.circle-text span:nth-child(3) {
+  transform: rotate(32.72deg);
+}
+
+.circle-text span:nth-child(4) {
+  transform: rotate(49.08deg);
+}
+
+.circle-text span:nth-child(5) {
+  transform: rotate(65.44deg);
+}
+
+.circle-text span:nth-child(6) {
+  transform: rotate(81.8deg);
+}
+
+.circle-text span:nth-child(7) {
+  transform: rotate(98.16deg);
+}
+
+.circle-text span:nth-child(8) {
+  transform: rotate(114.52deg);
+}
+
+.circle-text span:nth-child(9) {
+  transform: rotate(130.88deg);
+}
+
+.circle-text span:nth-child(10) {
+  transform: rotate(147.24deg);
+}
+
+.circle-text span:nth-child(11) {
+  transform: rotate(163.6deg);
+}
+
+.circle-text span:nth-child(12) {
+  transform: rotate(179.96deg);
+}
+
+.circle-text span:nth-child(13) {
+  transform: rotate(196.32deg);
+}
+
+.circle-text span:nth-child(14) {
+  transform: rotate(212.68deg);
+}
+
+.circle-text span:nth-child(15) {
+  transform: rotate(229.04deg);
+}
+
+.circle-text span:nth-child(16) {
+  transform: rotate(245.4deg);
+}
+
+.circle-text span:nth-child(17) {
+  transform: rotate(261.76deg);
+}
+
+.circle-text span:nth-child(18) {
+  transform: rotate(278.12deg);
+}
+
+.circle-text span:nth-child(19) {
+  transform: rotate(294.48deg);
+}
+
+.circle-text span:nth-child(20) {
+  transform: rotate(310.84deg);
+}
+
+.circle-text span:nth-child(21) {
+  transform: rotate(327.72deg);
+}
+
+.circle-text span:nth-child(22) {
+  transform: rotate(343.56deg);
+} */
+
+.line1 {
+  display: block;
+  width: 50px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.line2 {
+  display: block;
+  width: 50px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line3 {
+  display: block;
+  width: 50px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.line4 {
+  display: block;
+  width: 50px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
